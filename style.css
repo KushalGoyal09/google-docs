@@ -1,0 +1,145 @@
+button {
+    cursor: pointer;
+}
+
+textarea {
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    display: block;
+    resize: none;
+    font-size: 16px;
+}
+
+#save {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: inline-block;
+    background-color: #5f9341;
+    color: white;
+    border: 2px solid #5f9341;
+    border-radius: 5px;
+}
+
+#clear {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #fff;
+    color: #5f9341;
+    border: 2px solid #5f9341;
+    border-radius: 5px;
+}
+
+#save:hover {
+    background-color: #fff;
+    color: #5f9341;
+    border: 2px solid #5f9341;
+}
+
+#clear:hover {
+    background-color: #5f9341;
+    color: white;
+    border: 2px solid #5f9341;
+}
+
+#font {
+    width: 3.5em;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>* {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.container>button {
+    border: transparent;
+    border-radius: 3px;
+    padding: 0.3rem 0.7rem;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+.container>button:hover {
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+label[for="font"] {
+    margin-left: 0.8rem;
+}
+
+#font {
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#family {
+    position: relative;
+    margin: 0.3rem;
+    margin-right: 0.8rem;
+}
+
+#font-family {
+    display: none;
+    position: absolute;
+}
+
+#family-list {
+    list-style: none;
+    width: max-content;
+    background-color: #f1f1f1;
+    padding: 1rem 0.5rem;
+    overflow: scroll;
+}
+
+#family:hover #font-family {
+    display: block;
+}
+
+#family-list li {
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+}
+
+#family-list li:hover {
+    background-color: antiquewhite;
+}
+
+.container button>img {
+    width: 2ch;
+}
+
+#error {
+    margin-left: 0.8rem;
+}
+
+#left,
+#right,
+#center,
+#justify {
+    padding: 0.5rem;
+}
